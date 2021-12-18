@@ -1,0 +1,106 @@
+html {
+    height: 100vh;
+    font-family: Baloo;
+}
+
+body {
+    margin-top: 50px;
+    padding: 10px;
+    /* background-image: url(adventure.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 500px; */
+}
+
+#emoji-container {
+    margin: 40px;
+    text-align: center;
+}
+
+#emoji-container span {
+    margin: 10px;
+    font-size: 60px;
+}
+
+#push-btn,#unshift-btn {
+    background-color: lightseagreen;
+}
+
+#shift-btn,#pop-btn {
+    background-color: #E23349;
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-size: 28px;
+    letter-spacing: 2px;
+    text-align: center;
+    color: black;
+    font-family: 'Quicksand', sans-serif;
+    background: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 0;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    background-color: hsla(0, 0%, 100%, 0.80)
+    
+
+}
+
+input {
+    width: 203px;
+    margin: 0 auto;
+    display: block;
+    border: none;
+    height: 30px;
+    background: white;
+    border-radius: 6px;
+    text-align: center;
+}
+
+button {
+    width: 100px;
+    font-family: Baloo;
+    letter-spacing: .5px;
+    background: darkcyan;
+    color: white;
+    border: none;
+    padding: 4px 10px;
+    border-radius: 6px;
+    margin: 0 4px;
+    border: 2px black solid;
+}
+
+.buttons-wrapper {
+    display: flex;
+    justify-content: center;
+    margin: 10px 5px;
+}
+
+.buttons-wrapper-bottom {
+    display: flex;
+    justify-content: center;
+    /* margin: ; */
+}
+
+#background-img{
+    width: 253px;
+    margin: 0 auto;
+    border-radius: 10px;
+    background-image: url(adventure.jpg);
+    /* background-repeat: no-repeat;
+    background-attachment: fixed; */
+    background-position: center;
+}
+
+#container{
+    border: 3px solid #336699;
+    /* #336699 #55bafd */
+    width: 250px;
+    margin: 0 auto;
+    background-color: hsla(0, 0%, 100%, 0.52);
+    border-radius: 10px;
+
+}
